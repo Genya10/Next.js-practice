@@ -34,12 +34,23 @@ a:hover{
     padding: 20px;
     border-radius: 4px;
 }
+.post h2,
 .post h3{
+    margin-top: 5px;
     margin-bottom: 10px;
+}
+.post h2::first-letter{
+    text-transform: capitalize;
 }
 .post p{
     margin-bottom: 10px;
 }
-.post a{
-    color: #283c44;
+.post p{
+    text-indent: 8px;
+    font-weight: 600;
+    color: #000000d9;
 }
+.post p::first-letter{
+    text-transform: uppercase;
+}
+

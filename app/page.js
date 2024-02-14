@@ -14,7 +14,7 @@ export default async function Home() {
       <h1>Main page</h1>
       <div>{posts.map((post)=>{
        return <div key={post.id} className="post">
-        <h3>{post.title}</h3>
+        <h2>{post.title}</h2>
         <p>{post.body}</p>
         <Link href={`/post/` + post.id}>Details</Link>
         </div> ;
